@@ -1,0 +1,93 @@
+body
+{
+    line-height: 1.6;
+    background-color: rgb(235, 227, 227);
+}
+header
+{
+    position: relative;
+}
+
+.nav-link
+{
+    margin: 6px;
+}
+.nav-item1
+{
+    margin-right: 55px;
+}
+
+.btn
+{
+ margin-top: 15px;
+}
+.btn1
+{
+    margin-right: 10px;
+}
+.split
+{
+    display: flex;
+    flex-direction: column;
+}
+img
+{
+  display: block;
+  max-width: 100%;
+
+}
+.text-center
+{
+    text-align: center;
+}
+.container
+{
+    margin-inline: auto;
+    width: min(90%,70.5rem);
+}
+section
+{
+    padding: 16px 0;
+}
+
+
+@media (min-width:1300px)
+{
+  .bg-image
+{
+    background-image: url(blob.svg);
+    background-repeat: no-repeat;
+    
+    background-position: 490px ;
+    background-size: 96%;
+}
+}
+
+
+@media (min-width:700px)
+{   
+section
+{
+    padding: 64px 0;
+}
+
+}
+
+body,header,h1,h2,h3,h4,h5,h6{
+    margin:5px;
+    
+}
+@media (min-width:40em)
+{
+    .split
+    {
+        flex-direction: row;
+    }
+    .split > * {
+        flex-basis: 100%;
+    }
+    .split > * + *
+    {
+        margin-left: 6em;
+    }
+}
